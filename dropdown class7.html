@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Dropdown Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/dropdown class 7.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+	<style>
+		.sub-menu ul li{
+			opacity: unset;
+			
+		}
+
+		.video{
+			width: 250px;
+			height: 300px;
+		}
+		.video video{width: 100%;}
+
+		#image{
+		position: absolute;
+	     left: 2%;
+		top: 20px;}
+
+		.boxcontainer{
+			background-color: #ffff;
+			margin-left: 83%;
+			top:3.5%;
+			position: absolute;
+			height: 40px;
+			width:200px ;
+			border: 4px solid  rgb(0,200,0);
+			padding: 0px 10px;
+			border-radius: 50px;
+		}
+		.elementscontainer{
+			width: 100%;
+			height: 100%;
+			vertical-align: middle;
+		}
+		.search{
+			 border: none;
+			height: 100%;
+			width: 100%;
+			padding: 0px 5px;
+			border-radius: 50px;
+			font-size:20px;
+			font-family:auto;
+			color:rgb(0,200,0);
+			font-weight:500;
+		}
+		.search:focus{
+			outline: none;
+		}
+		
+
+		.material-icons{
+			font-size: 26;
+			color: rgb(0,200,0);
+		}
+
+		.demo2{
+	  background-color: rgb(0,100,0);
+	  position: absolute !important;
+	  height: 100px !important;
+	  width: 100%;
+	  top: 90%;
+	  left: 0;
+	  color: black;
+	
+      clear: both;
+	  text-align: center;
+  }
+  .demo1{
+	  margin-top: 15px;
+  }
+ 
+
+	
+
+	</style>
+
+</head>
+<body>
+
+	<nav class="menu-bar">
+	<img id="image" src="img/itv_logo.png" alt="" width="150px" height="40px"  >
+	<ul id="demo3">
+			<li><a href="#"> <i class="fas fa-home"></i>Home</a></li>
+			<li><a href="#">About</a></li>
+			<li>
+				<a href="#">Services</a>
+				<nav class="sub-menu">
+					<ul>
+						<li>Web development</li>
+						<li>Mobile App</li>
+						<li>IT education</li>
+					</ul>
+				</nav>
+			</li>
+			<li><a href="#">Contact us</a></li>
+			<li><a href="#">Vision</a></li>
+			<li><a href="#">Mission</li>
+		</ul>
+		
+
+		<div class="boxcontainer">
+			<table class="elementscontainer">
+				<tr>
+					<td>
+						<input type="text" placeholder="" class="search" title="search bar">
+
+					</td>
+					<td>
+						<a href="#"><i class="fas fa-search"></i></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</nav>
+	<h1>DROPDOWN MENU TUTORIAL</h1>
+
+		<section class="video">
+	 <video controls="true" autoplay=true loop autobuffer poster="img/image.png">
+		<source src="audio&video/_Redemption_BluRay_high_(fzmovies.net).mp4" type="video/mp4">
+		<track kind="subtitles" src="moviesubtitle.srt" lang="en">
+	</video>
+	
+		</section>
+
+		<br>
+
+
+		<footer class="demo2">
+			<p class="demo1">&copy;&nbsp;2020 - 2021 OAK ENGAGE INVESTMENT LTD</p>
+		</footer>
+
+</body>
+</html>
